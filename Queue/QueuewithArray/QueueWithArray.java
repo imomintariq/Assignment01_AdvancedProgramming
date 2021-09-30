@@ -1,12 +1,12 @@
 //Program to implement Circular Queue using an array.
 
-public class Queue{
+public class QueueWithArray {
 	static int [] array;  //arary to store values.
 	static int size;      //number of elements in the queue.
 	static int addPointer;//points to position where the latest number is added.
 	static int removePointer;//point to position of the number which is to be deleted.
 	
-	public Queue(int size){
+	public QueueWithArray(int size){
 		array=new int[size+1];
 		this.size=0;
 		addPointer=0;
@@ -77,35 +77,35 @@ public class Queue{
 	
 	//main function to run the program.
 	static public void main(String [] args){
-		Queue queue = new Queue(5); //create a queue 
-		queue.enqueue(10); //add num = 10
-		queue.enqueue(20); //add num = 20
-		queue.enqueue(30); //add num = 30
-		queue.enqueue(40); //add num = 40 
-		queue.enqueue(50); //add num = 50
-		queue.enqueue(60); //add num = 60
+		QueueWithArray queueWithArray = new QueueWithArray(5); //create a queue
+		queueWithArray.enqueue(10); //add num = 10
+		queueWithArray.enqueue(20); //add num = 20
+		queueWithArray.enqueue(30); //add num = 30
+		queueWithArray.enqueue(40); //add num = 40
+		queueWithArray.enqueue(50); //add num = 50
+		queueWithArray.enqueue(60); //add num = 60
 		
-		queue.display();   //display queue.
+		queueWithArray.display();   //display queue.
 
-		queue.dequeue();   //dequeue
-		queue.dequeue();   //dequeue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.dequeue();   //dequeue
 
-		queue.display();   //display queue.
+		queueWithArray.display();   //display queue.
 
-		queue.enqueue(20); //add num = 20
+		queueWithArray.enqueue(20); //add num = 20
 		
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue 
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue   
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
-		queue.dequeue();   //dequeue
-		queue.display();   //display queue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.display();   //display queue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.display();   //display queue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.display();   //display queue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.display();   //display queue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.display();   //display queue
+		queueWithArray.dequeue();   //dequeue
+		queueWithArray.display();   //display queue
 		
 	}
 }

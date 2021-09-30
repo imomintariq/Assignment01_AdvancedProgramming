@@ -105,7 +105,7 @@ public class Array{
 		array.bubbleSort();//sort the array.
 		array.display();   //display the array.
 
-		System.out.println(array.binarySearch(56,0,size)); //search for num=56 using Binary Search.
+		System.out.println(array.binarySearch(56,0,size)); //search for num=56 using Binary Search
 	}
 }
 	

@@ -1,7 +1,7 @@
 //Program to implement the created Queue.
 public class QueueImplementation{
 	public static void main(String [] args){
-		Queue queue = new Queue(5); //create queue of size=5.
+		Queue1 queue = new Queue1(5); //create queue of size=5.
 		try{
 			System.out.println("Is Queue empty? : " + queue.empty());
 		

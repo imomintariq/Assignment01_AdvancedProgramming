@@ -1,11 +1,11 @@
 //Program to implement Stack using an array.
 
-public class Stack{
+public class StackWithArray {
 	static int [] array; //array to store numbers.
 	static int size; //stores the number of elements in the array.
 	static int addPointer; //points to the position, where new number is to be added.
 
-	public Stack(){
+	public StackWithArray(){
 		array=new int[100]; //length = 100
 		size=0;  //initial size = 0.
 		addPointer=0; //initially points to position = 0;
@@ -61,7 +61,7 @@ public class Stack{
 	public static void main(String [] args){
 		//create a Stack.
 		System.out.println("STACK");
-		Stack stack = new Stack();
+		StackWithArray stack = new StackWithArray();
 		
 		stack.push(10); //push num=10
 		stack.push(20); //push num=20

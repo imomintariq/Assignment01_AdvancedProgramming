@@ -1,5 +1,5 @@
 //Program to implement Circular LinkedList.
-
+import java.util.*;
 public class CircularLinkedList{
 	static class Node{
 		int key;    //Data value

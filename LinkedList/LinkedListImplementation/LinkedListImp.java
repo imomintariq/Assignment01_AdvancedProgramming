@@ -1,21 +1,21 @@
 //Program to implement LinkedList.
 
-public class LinkedList{
+public class LinkedListImp {
 	int data;    
-	LinkedList nextPointer;
+	LinkedListImp nextPointer;
 	
 	static int numofElements;
-	static LinkedList headPointer;
-	static LinkedList tailPointer;
+	static LinkedListImp headPointer;
+	static LinkedListImp tailPointer;
 
-	public LinkedList(){
+	public LinkedListImp(){
 		nextPointer=null;
 	}
 		
 	//function to add element into the linked list.
 	public void add(int number){
 		System.out.println("Adding element at the back of the list : " + number);
-		LinkedList node = new LinkedList();
+		LinkedListImp node = new LinkedListImp();
 		node.data=number;
 		
 		if(numofElements==0){
@@ -33,7 +33,7 @@ public class LinkedList{
 	//function to add element at the front of the list.
 	public void pushFront(int number){
 		System.out.println("Inserting element at the front of the list : " + number);
-		LinkedList node = new LinkedList();
+		LinkedListImp node = new LinkedListImp();
 		node.data=number;
 		numofElements++;	
 		
@@ -82,7 +82,7 @@ public class LinkedList{
 	//function to add elements at the back of the list.
 	public void pushBack(int number){
 		System.out.println("Inserting element at the back of the list : " + number);
-		LinkedList node = new LinkedList();
+		LinkedListImp node = new LinkedListImp();
 		node.data=number;
 		numofElements++;
 
@@ -108,7 +108,7 @@ public class LinkedList{
 	public void display(){
 		System.out.print("LinkedList : ");
 		System.out.print("[ ");
-		LinkedList temp = headPointer;
+		LinkedListImp temp = headPointer;
 		while(temp!=null){
 			System.out.print(temp.data + " ");
 			temp=temp.nextPointer;

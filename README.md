@@ -3,13 +3,13 @@
 Implemented following Data Structures using Java Language :
 1.   Arrays
 2.   ArrayList
-3.   LinkedList
-4.   Doubly-LinkedList
-5.   Circular LinkedList
-6.   Stack using Array and LinkedList
-7.   Queue using Array and LinkedList
-8.   Dequeue - Double Sided Queue
-9.   Priority-Queue using Max-Heap Property
+3.   LinkedListSwapNodes
+4.   Doubly-LinkedListSwapNodes
+5.   Circular LinkedListSwapNodes
+6.   StackWithArray using Array and LinkedListSwapNodes
+7.   QueueWithArray using Array and LinkedListSwapNodes
+8.   Dequeue - Double Sided QueueWithArray
+9.   Priority-QueueWithArray using Max-Heap Property
 10.  BinarySearch Tree
 11.  AVL Tree
 12.  Splay Tree
@@ -27,21 +27,21 @@ Implemented following Data Structures using Java Language :
     
 * **ArrayList**: In computer science, a dynamic array, growable array, or array list is a random access, variable-size list data           structure that allows elements to be added or removed. Dynamic arrays overcome a limit of static arrays, which have a fixed capacity     that needs to be specified at allocation.
 
-* **LinkedList**: In computer science, a linked list is a linear collection of data elements, in which linear order is not given by       their physical placement in memory. Each pointing to the next node by means of a pointer. It is a data structure consisting of a         group of nodes which together represent a sequence. Under the simplest form, each node is composed of data and a reference (in           other words,a link) to the next node in the sequence. This structure allows for efficient insertion or removal of elements from any     position in the sequence during iteration. 
+* **LinkedListSwapNodes**: In computer science, a linked list is a linear collection of data elements, in which linear order is not given by       their physical placement in memory. Each pointing to the next node by means of a pointer. It is a data structure consisting of a         group of nodes which together represent a sequence. Under the simplest form, each node is composed of data and a reference (in           other words,a link) to the next node in the sequence. This structure allows for efficient insertion or removal of elements from any     position in the sequence during iteration. 
 
 * **DoublyLinkedList**: In computer science, a doubly linked list is a linked data structure that consists of a set of sequentially       linked records called nodes. Each node contains two fields, called links, that are references to the previous and to the next node in   the sequence of nodes. The beginning and ending nodes' previous and next links, respectively, point to some kind of terminator,         typically a sentinel node or null, to facilitate traversal of the list. It can be conceptualized as two singly linked lists formed       from the same data items, but in opposite sequential orders.
 
 * **CircularLinkedList**: Circular Linked List is a variation of Linked list in which the first element points to the last element and     the last element points to the first element. Both Singly Linked List and Doubly Linked List can be made into a circular linked list.
 
-* **Stack**: In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal             operations:
+* **StackWithArray**: In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal             operations:
   * push, which adds an element to the collection, and
   * pop, which removes the most recently added element that was not yet removed.
   
   The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out). Additionally, a peek         operation may give access to the top without modifying the stack.
   
-* **Queue**: In computer science, a queue is a particular kind of abstract data type or collection in which the entities in the           collection are kept in order and the principle (or only) operations on the collection are the addition of entities to the rear           terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue. This makes the queue   a First-In-First-Out (FIFO) data structure. In a FIFO data structure, the first element added to the queue will be the first one to be   removed.
+* **QueueWithArray**: In computer science, a queueWithArray is a particular kind of abstract data type or collection in which the entities in the           collection are kept in order and the principle (or only) operations on the collection are the addition of entities to the rear           terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue. This makes the queueWithArray   a First-In-First-Out (FIFO) data structure. In a FIFO data structure, the first element added to the queueWithArray will be the first one to be   removed.
 
-* **PriorityQueue**: In computer science, a priority queue is an abstract data type where each element has a "priority" associated with   it. In a priority queue, an element with high priority is served before an element with low priority. Priority queues are often         implemented with heaps, they are conceptually distinct from heaps. A priority queue is an abstract concept. Just as a list can be       implemented with a linked list or an array, a priority queue can be implemented with a heap or a variety of other methods such as an     unordered array.
+* **PriorityQueue**: In computer science, a priority queueWithArray is an abstract data type where each element has a "priority" associated with   it. In a priority queueWithArray, an element with high priority is served before an element with low priority. Priority queues are often         implemented with heaps, they are conceptually distinct from heaps. A priority queueWithArray is an abstract concept. Just as a list can be       implemented with a linked list or an array, a priority queueWithArray can be implemented with a heap or a variety of other methods such as an     unordered array.
 
 * **BinarySearchTree**: A binary search tree is a rooted binary tree, whose internal nodes each store a key (and optionally, an           associated value) and each have two distinguished sub-trees, commonly denoted left and right. The tree additionally satisfies the       binary search tree property, which states that the key in each node must be greater than or equal to any key stored in the left sub-     tree, and less than or equal to any key stored in the right sub-tree. They allow fast lookup, addition and removal of items, and can     be used to implement either dynamic sets of items, or lookup tables that allow finding an item by its key (e.g., finding the phone       number of a person by name).
 

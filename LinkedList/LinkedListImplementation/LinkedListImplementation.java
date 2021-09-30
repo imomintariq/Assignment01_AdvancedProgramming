@@ -1,7 +1,7 @@
 //Program to execute the LinedList.
 public class LinkedListImplementation{
 	public static void main(String [] args){
-		LinkedList list = new LinkedList(); //create a LinkedList.
+		LinkedListImp list = new LinkedListImp(); //create a LinkedList.
 		try{
 			list.add(10);
 			list.popFront();

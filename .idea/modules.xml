@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AVLTree/AVLTree.iml" filepath="$PROJECT_DIR$/AVLTree/AVLTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B-Tree/B-Tree.iml" filepath="$PROJECT_DIR$/B-Tree/B-Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" filepath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTree/BinarySearchTree 2/BinarySearchTree 2.iml" filepath="$PROJECT_DIR$/BinarySearchTree/BinarySearchTree 2/BinarySearchTree 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DisjointSet/DisjointSet.iml" filepath="$PROJECT_DIR$/DisjointSet/DisjointSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" filepath="$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PriorityQueue/PriorityQueue.iml" filepath="$PROJECT_DIR$/PriorityQueue/PriorityQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures.iml" filepath="$PROJECT_DIR$/data-structures.iml" />
+    </modules>
+  </component>
+</project>

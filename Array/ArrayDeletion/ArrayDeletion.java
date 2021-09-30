@@ -5,7 +5,7 @@
 import java.util.*;
 public class ArrayDeletion{
 	//this function takes two arguments - array to delete in and index of the element to delete.
-	private static int [] delete(int [] array, int indextodeleteAt){
+	public static int [] delete(int [] array, int indextodeleteAt){
 		//check if index is valid.
 		if(indextodeleteAt<0 || indextodeleteAt>array.length-1){
 			return array;
